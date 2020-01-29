@@ -89,4 +89,10 @@ a:focus
   width: 3rem;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav {
+    width: 100%;
+  }
+}
+
 </style>

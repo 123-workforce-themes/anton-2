@@ -404,7 +404,6 @@ export default {
    setActive (menuItem, y) {
       this.activeItem = menuItem;
       this.currentLink = y;
-      this.moveActive();
     }
   }
 
@@ -576,5 +575,35 @@ export default {
   font-size: 20px;
   font-weight: 600;
   margin-top: -6px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #home .top-section{
+   display: flex;
+   flex-direction: column;
+  }
+
+  #home .top-section .rate {
+    padding: 3rem 0rem;
+    margin: auto;
+  }
+
+  #home .top-section .avatar-container {
+    padding: 0rem 3rem;
+  }
+
+  #home .tab-container .img-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home .text-container {
+    flex-direction: column;
+    padding-left: 6rem;
+  }
+
+   #home .text-container .left-first {
+    padding: 1rem 0rem;
+  }
 }
 </style>
