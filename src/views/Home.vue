@@ -382,10 +382,10 @@
       </div>
       <div class="nav-arrows">
         <div>
-          <i class="far fa-arrow-alt-circle-left fa-2x pr-3"></i>
+         <img src="@/assets/img/left.png" alt="" class="left-arrow">
         </div>
         <div>
-          <i class="far fa-arrow-alt-circle-right fa-2x"></i>
+          <img src="@/assets/img/right.png" alt="" class="right-arrow">
         </div>
       </div>
     </section>
@@ -494,8 +494,10 @@ export default {
 }
 
 #home .top-section .rate .rate-deets span {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px !important;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 #home .top-section .rate .rate-deets p {
@@ -507,6 +509,7 @@ export default {
   border-right: 1px solid #ffffff;
   height: 22px;
   padding-right: 20px;
+  margin-top: -3px;
 }
 
 #home .top-section .rate .rate-deets .weekly {
@@ -620,6 +623,12 @@ export default {
   align-items: center;
   padding: 1rem 0rem;
   cursor: pointer;
+}
+
+#home .nav-arrows img{
+  width: 2rem;
+  object-fit: contain;
+  margin: 0rem 1rem;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
