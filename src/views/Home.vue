@@ -269,7 +269,7 @@
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                       <div>
-                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA"</h6>
+                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA</h6>
                           <ul class="list-unstyled">
                             <li>
                               - Turning creative concepts into finished websites.
@@ -297,7 +297,7 @@
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                       <div>
-                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA"</h6>
+                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA</h6>
                           <ul class="list-unstyled">
                             <li>
                               - Turning creative concepts into finished websites.
@@ -327,7 +327,7 @@
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                       <div>
-                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA"</h6>
+                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA</h6>
                           <ul class="list-unstyled">
                             <li>
                               - Turning creative concepts into finished websites.
@@ -355,7 +355,7 @@
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                       <div>
-                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA"</h6>
+                        <h6 class="sub-heading">Envision Media, Inc., Santa Cruz, CA</h6>
                           <ul class="list-unstyled">
                             <li>
                               - Turning creative concepts into finished websites.
