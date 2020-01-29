@@ -21,8 +21,8 @@
       </div>
       <div class="rate">
         <div class="rate-deets">
-          <p class="with-line">$10 HOURLY RATE</p>
-          <p class="weekly">35 HOURS WEEKLY AVAILABILITY</p>
+          <p class="with-line"><span>$10</span> hourly rate</p>
+          <p class="weekly"><span>35 HOURS</span> weekly availability</p>
           <button class="btn btn-sm hire">HIRE ME</button>
         </div>
       </div>
@@ -380,6 +380,14 @@
               </div>
           </div>
       </div>
+      <div class="nav-arrows">
+        <div>
+          <i class="far fa-arrow-alt-circle-left fa-2x pr-3"></i>
+        </div>
+        <div>
+          <i class="far fa-arrow-alt-circle-right fa-2x"></i>
+        </div>
+      </div>
     </section>
   </main>
 </template>
@@ -394,7 +402,7 @@ export default {
   data() {
     return {
       activeItem: 'portfolio',
-      currentLink: null
+      currentLink: 0
     }
   },
   methods: {
@@ -404,7 +412,21 @@ export default {
    setActive (menuItem, y) {
       this.activeItem = menuItem;
       this.currentLink = y;
-    }
+    },
+    // moveRight() {
+    //   if(this.currentLink <= 3) {
+    //     this.currentLink + 1
+    //     this.activeItem = 'skills'
+    //   } else {
+    //     this.currentLink = 0
+    //   }
+    // },
+    // moveLeft() {
+    //   if(this.currentLink == 3) {
+    //     this.currentLink - 1
+    //     this.activeItem = 'portfolio'
+    //   }
+    // }
   }
 
 }
@@ -470,6 +492,16 @@ export default {
   justify-content: space-between;
   align-items: center
 }
+
+#home .top-section .rate .rate-deets span {
+  font-weight: 600;
+  font-size: 18px !important;
+}
+
+#home .top-section .rate .rate-deets p {
+  font-size: 13px;
+}
+
 
 #home .top-section .rate .rate-deets .with-line {
   border-right: 1px solid #ffffff;
@@ -577,6 +609,14 @@ export default {
   margin-top: -6px;
 }
 
+#home .nav-arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+  cursor: pointer;
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   #home .top-section{
    display: flex;
@@ -605,5 +645,9 @@ export default {
    #home .text-container .left-first {
     padding: 1rem 0rem;
   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
 }
 </style>
