@@ -551,6 +551,11 @@ export default {
   justify-content: center;
   margin: 0px 10px;
 }
+
+#home .social-media .social img {
+  width: 22px;
+}
+  
 .fab {
   font-size: 22px;
 }
