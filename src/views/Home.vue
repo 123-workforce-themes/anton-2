@@ -27,6 +27,26 @@
         </div>
       </div>
     </section>
+    <section class="top-section__mobile">
+      <div class="d-flex justify-content-between">
+        <div class="avatar"></div>
+        <div class="user-deets">
+          <p>Jennifer lopez</p>
+          <span>Web Designer</span>
+        </div>
+      </div>
+        <div class="icon-container">
+          <div class="icon1">
+            <img src="@/assets/img/chat.svg" alt="">
+          </div>
+          <div class="icon2">
+            <img src="@/assets/img/audio.svg" alt="">
+          </div>
+          <div class="icon3">
+            <img src="@/assets/img/video.svg" alt="">
+          </div>
+        </div>
+    </section>
     <section class="social-media">
       <div class="social">
         <i class="fab fa-behance"></i>
@@ -452,6 +472,10 @@ export default {
   justify-content: space-between;
 }
 
+#home .top-section__mobile {
+  display: none;
+}
+
 #home .top-section .avatar-container .avatar {
   width: 6rem;
   height: 6rem;
@@ -637,6 +661,10 @@ export default {
    flex-direction: column;
   }
 
+  #home .top-section__mobile {
+    display: none;
+  }
+
   #home .top-section .rate {
     padding: 3rem 0rem;
     margin: auto;
@@ -651,6 +679,10 @@ export default {
     flex-direction: column;
   }
 
+  #home .tab-container .img-section img {
+    margin: 1rem 0rem;
+  }
+
   #home .text-container {
     flex-direction: column;
     padding-left: 6rem;
@@ -661,7 +693,89 @@ export default {
   }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 300px) and (max-width: 767.98px) {
 
+  .overlay {
+    padding: 50px 25px 0px 25px;
+  }
+
+  #home .top-section{
+   display: none !important;
+  }
+
+  #home .top-section__mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0
+  }
+
+   #home .top-section__mobile .avatar{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin-right: 0.8rem;
+  }
+
+  #home .top-section__mobile .user-deets{
+    line-height: 24px;
+  }
+
+   #home .top-section__mobile .user-deets p{
+    font-size: 22px;
+  }
+
+   #home .top-section__mobile .icon-container .icon1,
+   #home .top-section__mobile .icon-container .icon2,
+   #home .top-section__mobile .icon-container .icon3
+    {
+    width: 3rem;
+    height: 3rem;
+    margin: 16px 8px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  #home .tab-container {
+    position: relative;
+  }
+
+  #home .tab-container .tab-header {
+    display: inline-flex;
+    width: 100vw;
+  }
+
+  #home .tab-container .img-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home .tab-container .img-section img {
+    margin: 2rem 0rem;
+  }
+
+  #home .social-media .social{
+    padding: 17px;
+  }
+
+
+}
+
+@media (max-width: 450px) { 
+  #home .top-section__mobile .icon-container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home .top-section__mobile .icon-container .icon1,
+   #home .top-section__mobile .icon-container .icon2,
+   #home .top-section__mobile .icon-container .icon3
+    {
+    margin: 3px 0px;
+  }
 }
 </style>

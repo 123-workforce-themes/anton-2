@@ -95,4 +95,14 @@ a:focus
   }
 }
 
+@media (min-width: 300px) and (max-width: 767.98px) {
+  .nav {
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
 </style>
